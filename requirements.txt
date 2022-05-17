@@ -1,0 +1,4 @@
+jiminy-py==1.7.9
+matplotlib
+numpy
+control
