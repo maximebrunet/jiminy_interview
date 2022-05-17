@@ -2,3 +2,4 @@ jiminy-py==1.7.9
 matplotlib
 numpy
 control
+ipykernel==1.5.5
