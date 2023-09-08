@@ -4,7 +4,7 @@ from jiminy_py.robot import BaseJiminyRobot
 
 SIMULATION_END_TIME = 10.0
 urdf_path = "double_pendulum.urdf"
-hardware_path = "double_pendulum_hardware.toml"
+hardware_path = "double_pendulum_hardware.urdf"
 
 robot = BaseJiminyRobot()
 robot.initialize(urdf_path, hardware_path, has_freeflyer=False)
